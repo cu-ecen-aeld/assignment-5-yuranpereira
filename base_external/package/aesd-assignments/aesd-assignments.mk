@@ -19,7 +19,6 @@ define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(TARGET_CC) $(FINDER_APP_ROOT)/writer.c -o $(FINDER_APP_ROOT)/writer
 endef
 
-
 # TODO add your writer, finder and finder-test utilities/scripts to the installation steps below
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -d 0755 $(@D)/conf/ $(TARGET_DIR)/etc/finder-app/conf/
