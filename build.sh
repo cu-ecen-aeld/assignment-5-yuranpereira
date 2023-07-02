@@ -5,6 +5,8 @@
 source shared.sh
 
 EXTERNAL_REL_BUILDROOT=../base_external
+export BR2_DL_DIR=/media/yuran/RedmiDataBackup/Coursera/buildroot_dl
+BR2_DL_DIR=/media/yuran/RedmiDataBackup/Coursera/buildroot_dl
 git submodule init
 git submodule sync
 git submodule update
